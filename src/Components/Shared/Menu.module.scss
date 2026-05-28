@@ -1,0 +1,41 @@
+/*------------------------------------------------------------*/
+//                    menu
+/*------------------------------------------------------------*/
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: rgba(0,0,0,0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
+
+.salir {
+  color: red;
+  cursor: pointer;
+  font-size: 14px;
+}

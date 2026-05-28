@@ -1,0 +1,62 @@
+/*------------------------------------------------------------*/
+//                    recepcion
+/*------------------------------------------------------------*/
+
+.pag {
+  padding: 100px 30px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100vh;
+
+  h2 {
+    color: #8b6914;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 25px;
+
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1;
+    min-width: 150px;
+    background: #2c2c2c;
+    color: white;
+  }
+
+  button {
+    padding: 10px 20px;
+    background: #8b6914;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+.item {
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #2c2c2c;
+  color: white;
+
+  b {
+    color: #d4a843;
+    font-size: 16px;
+  }
+
+  p {
+    color: white;
+    margin-top: 5px;
+  }
+
+  span {
+    color: #aaa;
+    font-size: 13px;
+  }
+}

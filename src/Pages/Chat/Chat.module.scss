@@ -1,0 +1,36 @@
+/*------------------------------------------------------------*/
+//                    chat
+/*------------------------------------------------------------*/
+
+.pag {
+  padding: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.msgs {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+
+  button {
+    padding: 8px 15px;
+    background: #1a6fc4;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
